@@ -77,10 +77,10 @@ const Filters = ({ dispatch }: { dispatch: Dispatch<ActionTypes> }) => {
       dispatch({
         type: "LoadProducts",
       })
+      setSelectStrategy("")
+      setSelectAssetClass("")
+      setSelectStyle("")
     }
-    setSelectStrategy("")
-    setSelectAssetClass("")
-    setSelectStyle("")
     dispatch({
       type: "FilterProduct",
       payload: {
@@ -99,10 +99,10 @@ const Filters = ({ dispatch }: { dispatch: Dispatch<ActionTypes> }) => {
       dispatch({
         type: "LoadProducts",
       })
+      setSelectStrategy("")
+      setSelectAssetClass("")
+      setSelectMarketRegion("")
     }
-    setSelectStrategy("")
-    setSelectAssetClass("")
-    setSelectMarketRegion("")
     dispatch({
       type: "FilterProduct",
       payload: {
