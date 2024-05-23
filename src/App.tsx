@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useReducer } from "react"
+import Box from "@mui/material/Box"
+import Typography from "@mui/material/Typography"
+import TextInput from "./components/TextInput"
+import Filters from "./components/Filters"
+import ProductTable from "./components/ProductTable"
+import { initialState, reducer } from "./store/reducer"
+import "./App.css"
 
 function App() {
+  const [{ products }, dispatch] = useReducer(reducer, initialState)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Box sx={{ width: "100%" }}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Product Finder
+        </Typography>
+      </Box>
+      <Box
+        sx={{
+          display: "flex",
+          alignItems: "flex-end",
+          marginTop: "36px",
+          width: "66%",
+        }}
+      >
+        <TextInput dispatch={dispatch} />
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          marginTop: "24px",
+        }}
+      >
+        <Filters dispatch={dispatch} />
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          marginTop: "72px",
+        }}
+      >
+        <ProductTable products={products} />
+      </Box>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

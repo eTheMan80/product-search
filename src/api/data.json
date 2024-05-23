@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "fundName": "Nasdaq Cybersecurity UCITS ETF",
+      "primaryTicker": "CBRS",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BF16M727",
+      "strategy": "Thematic",
+      "assetClass": "All Cap",
+      "region": "Global",
+      "style": "Active"
+    },
+    {
+      "id": "2",
+      "fundName": "Cloud Computing UCITS ETF",
+      "primaryTicker": "SKYE",
+      "incomeTreatment": "Acc",
+      "classCurrency": "GBP",
+      "isin": "IE00BFD2H405",
+      "strategy": "Thematic",
+      "assetClass": "All Cap",
+      "region": "Global",
+      "style": "Active"
+    },
+    {
+      "id": "3",
+      "fundName": "Nasdaq Clean Edge Green Energy UCITS ETF",
+      "primaryTicker": "QCLN",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BDBRT036",
+      "strategy": "Factors",
+      "assetClass": "Large Cap",
+      "region": "Developed",
+      "style": "Index"
+    },
+    {
+      "id": "4",
+      "fundName": "Indxx Innovative Transaction & Process UCITS ETF",
+      "primaryTicker": "BLOK",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BF5DXP42",
+      "strategy": "Equity Income",
+      "assetClass": "Small Cap",
+      "region": "Emerging",
+      "style": "Active"
+    },
+    {
+      "id": "5",
+      "fundName": "Dow Jones Internet UCITS ETF",
+      "primaryTicker": "FDNE",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BG0SSC32",
+      "strategy": "Capital Strength",
+      "assetClass": "Government",
+      "region": "Asia Pacific",
+      "style": "Index"
+    },
+    {
+      "id": "6",
+      "fundName": "Dow Jones International Internet UCITS ETF",
+      "primaryTicker": "FDNI",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BT9PVG14",
+      "strategy": "Currency Hedge",
+      "assetClass": "Currency",
+      "region": "Europe",
+      "style": "Active"
+    },
+    {
+      "id": "7",
+      "fundName": "NYSE Arca Biotechnology UCITS ETF",
+      "primaryTicker": "FBT",
+      "incomeTreatment": "Acc",
+      "classCurrency": "USD",
+      "isin": "IE00BL0L0H60",
+      "strategy": "ESG",
+      "assetClass": "Large Cap",
+      "region": "Germany",
+      "style": "Index"
+    },
+
+    {
+      "id": "8",
+      "fundName": "IPOX Europe Equity Opportunities UCITS ETF",
+      "primaryTicker": "EFPX",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR",
+      "isin": "IE00BFD26097",
+      "strategy": "Factors",
+      "assetClass": "Small Cap",
+      "region": "Switzerland",
+      "style": "Active"
+    },
+    {
+      "id": "9",
+      "fundName": "US Equity opportunites UCITS ETF",
+      "primaryTicker": "FPXU",
+      "incomeTreatment": "Acc",
+      "classCurrency": "USD",
+      "isin": "IE00BYTH6238",
+      "strategy": "Equity Income",
+      "assetClass": "Government",
+      "region": "United Kingdom",
+      "style": "Index"
+    },
+    {
+      "id": "10",
+      "fundName": "FactorFX UCITS ETF",
+      "primaryTicker": "FXEU",
+      "incomeTreatment": "Acc",
+      "classCurrency": "EUR (H)",
+      "isin": "IE00BD5HBS12",
+      "strategy": "Capital Strength",
+      "assetClass": "All Cap",
+      "region": "North America",
+      "style": "Active"
+    },
+    {
+      "id": "11",
+      "fundName": "FactorFX UCITS ETF",
+      "primaryTicker": "FTFX",
+      "incomeTreatment": "Acc",
+      "classCurrency": "USD",
+      "isin": "IE00BD5HBQ97",
+      "strategy": "Currency Hedge",
+      "assetClass": "Large Cap",
+      "region": "United States",
+      "style": "Index"
+    },
+    {
+      "id": "12",
+      "fundName": "FactorFX UCITS ETF",
+      "primaryTicker": "FXGB",
+      "incomeTreatment": "Acc",
+      "classCurrency": "GBP (H)",
+      "isin": "IE00BD5HBR05",
+      "strategy": "ESG",
+      "assetClass": "Small Cap",
+      "region": "Developed",
+      "style": "Active"
+    },
+    {
+      "id": "13",
+      "fundName": "Low Duration Global Government Bond UCITS ETF",
+      "primaryTicker": "FSOV",
+      "incomeTreatment": "Dist",
+      "classCurrency": "EUR",
+      "isin": "IE00BKS2X317",
+      "strategy": "Thematic",
+      "assetClass": "Government",
+      "region": "Asia Pacific",
+      "style": "Active"
+    }
+  ]
+}
