@@ -7,7 +7,7 @@ import TableRow from "@mui/material/TableRow"
 import Paper from "@mui/material/Paper"
 import Box from "@mui/material/Box"
 import Typography from "@mui/material/Typography"
-import { productTableHeaders } from "../../helper/text"
+import { productTableHeaders } from "../../utils/text"
 
 const ProductTable = ({ products }: { products: ProductDataProps[] }) => {
   if (products.length === 0) {

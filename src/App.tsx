@@ -4,7 +4,7 @@ import Typography from "@mui/material/Typography"
 import TextInput from "./components/TextInput"
 import Filters from "./components/Filters"
 import ProductTable from "./components/ProductTable"
-import { initialState, reducer } from "./store/reducer"
+import { initialState, reducer } from "./services/store/reducer"
 import "./App.css"
 
 function App() {

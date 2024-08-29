@@ -16,7 +16,7 @@ import {
   styleList,
   optionCategory,
   marketRegionIndentList,
-} from "../../helper/text"
+} from "../../utils/text"
 
 const Filters = ({ dispatch }: { dispatch: Dispatch<ActionTypes> }) => {
   const [selectStrategy, setSelectStrategy] = useState<string>("")
